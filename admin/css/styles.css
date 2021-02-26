@@ -1,0 +1,12 @@
+* {
+  overflow: hidden;
+}
+
+.icon-box {
+  border-bottom: 1px solid #ccc;
+  padding: 2px;
+}
+
+aside {
+  height: 100vh;
+}
