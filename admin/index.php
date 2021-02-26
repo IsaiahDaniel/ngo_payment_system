@@ -1,56 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/all.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Charitize</title>
-</head>
-<body>
 
   <main class="d-flex">
 
-    <aside class="bg-dark w-25 text-white">
-      <div class="icons p-3 d-flex flex-column">
-
-        <div class="icon-box d-flex mb-4">
-          <i class="fas fa-admin"></i> 
-          <h5>Dashboard</h5>
-        </div>
-
-        <div class="icon-box d-flex mb-4">
-          <i class="fas fa-chart-pie mr-2 fa-2x"></i> 
-          <h5>Overview</h5>
-        </div>
-
-        <div class="icon-box d-flex mb-4">
-          <i class="fas fa-hand-holding-usd fa-2x"></i> 
-          <h5>Donations Made</h5>
-        </div>
-
-        <div class="icon-box d-flex mb-4">
-          <i class="fas fa-user fa-2x"></i> 
-          <h5>Users</h5>
-        </div>
-
-      </div>
-    </aside>
-
+    <?php include "includes/admin_aside.php"; ?>
+    
     <section class="bg-light w-75">
 
-      <nav class="navbar navbar-light bg-light">
-        <div class="container">
-          <a href="#" class="navbar-brand">Admin</a>
-          <div class="left-sidebar ml-auto">
-            <i class="fas fa-bell bell-shake"></i>
-          </div>
-        </div>
-      </nav>
+      <?php include "includes/admin_nav.php"; ?>
 
       <div class="row mt-5 p-3">
         <div class="col-md-4">
@@ -122,8 +77,4 @@
 
 
 
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-
-</body>
-</html>
+<?php include "includes/admin_footer.php" ?>

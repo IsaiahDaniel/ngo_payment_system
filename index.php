@@ -1,50 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Charitize</title>
-</head>
-<body>
+<?php include "includes/header.php"; ?>
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">
-        <img src="images/logo.png" alt="logo">
-      </a>
-
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="navbar-collapse collapse" id="navbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link">Home</a></li>
-          <li class="nav-item">
-            <a  href="/donate.html"class="nav-link">Donate</a>
-          </li>
-          <li class="nav-item">
-            <a  href="/login.html"class="nav-link">Login</a>
-          </li>
-          <li class="nav-item">
-            <a  href="register.html"class="nav-link">Register</a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-  </nav>
+  <?php include "includes/nav.php"; ?>
 
   <section id="showcase">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 mt-5 w-50">
+        <div class="col-md-12 w-50">
           <h2 class="display-4 text-white">Support A Cause You care about</h2>
           <p class="text-white lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora repellat fugiat doloribus molestias ipsa sunt temporibus dolores ea nam? Cum id, perspiciatis omnis odio numquam ut libero esse, voluptas natus, laborum blanditiis harum? Quasi nisi eaque eum consectetur porro eligendi?</p>
           <a href="#" class="btn btn-lg btn-outline-light">Donate</a>
@@ -152,16 +113,4 @@
 
   </section>
 
-  <footer class="mt-5 bg-dark p-3">
-    <div class="container">
-      <p class="text-center text-white">
-        charitize 2021 &copy; All rights reserved
-      </p>
-    </div>
-  </footer>
-
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-
-</body>
-</html>
+<?php include "includes/footer.php"; ?>
