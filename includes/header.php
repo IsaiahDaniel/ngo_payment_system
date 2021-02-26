@@ -1,5 +1,5 @@
-<?php require "./config/db.php"; ?>
-<!doctype html>
+<?php require "./config/init.php"; ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,6 @@
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Charitize</title>
+    <title>Chirstian association of Nigeria | NGO</title>
 </head>
 <body>

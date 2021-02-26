@@ -1,3 +1,4 @@
+<?php include "includes/admin_header.php"; ?>
 
   <main class="d-flex">
 
@@ -74,7 +75,4 @@
 
   </main>
 
-
-
-
-<?php include "includes/admin_footer.php" ?>
+<?php include "includes/admin_footer.php"; ?>

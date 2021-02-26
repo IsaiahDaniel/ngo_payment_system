@@ -1,13 +1,12 @@
-<?php include "includes/header.php" ?>
+<?php include "includes/header.php"; ?>
   
-  <?php include "includes/nav.php" ?>
+  <?php include "includes/nav.php"; ?>
 
   <br> <br> <br> <br>
 
   <div class="donation-container">   
     <div class="donation-box">
 	      <div class="title bg-dark">Donation Information</div>
-	            
           <div class="fields">
             <input type="text" id="firstName" placeholder="First Name"> 
             <input type="text" id="lastName" placeholder="Last Name"> 

@@ -1,3 +1,5 @@
 <?php 
 
-  require "./config/db.php";
+  session_start();
+
+  require "db.php";

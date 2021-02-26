@@ -5,7 +5,7 @@
   <section id="showcase">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 w-50">
+        <div class="col-md-12 d-flex flex-column justify-content-center align-items-centers">
           <h2 class="display-4 text-white">Support A Cause You care about</h2>
           <p class="text-white lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora repellat fugiat doloribus molestias ipsa sunt temporibus dolores ea nam? Cum id, perspiciatis omnis odio numquam ut libero esse, voluptas natus, laborum blanditiis harum? Quasi nisi eaque eum consectetur porro eligendi?</p>
           <a href="#" class="btn btn-lg btn-outline-light">Donate</a>
